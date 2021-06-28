@@ -48,11 +48,11 @@ function Albums() {
 
   const showModalHandler = () => {
     setShowModal(true);
-  }
+  };
 
   const hideModalHandler = () => {
     setShowModal(false);
-  }
+  };
 
   return (
     <>
@@ -70,7 +70,7 @@ function Albums() {
             alt="real-Life-Situations-Cover"
             caption="Real Life Situations"
           />
-          <Link href="/albums/introducingJuanPablo">
+          <Link href="/albums/">
             <AlbumCover
               src={introducingJuanPabloCover}
               alt="introducing-Juan-Pablo-Cover"

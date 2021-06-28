@@ -1,0 +1,61 @@
+.HomePage {
+  background-color: transparent;
+}
+
+.Title {
+  text-align: center;
+  background-color:transparent;
+}
+
+.Continue {
+  position: fixed;
+  bottom: 150px;
+  right: 150px;
+  cursor: pointer;
+}
+
+@media (max-width: 1025px) {
+  .Continue {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Continue {
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Title {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .Continue {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Title {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .Continue {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    width: 150px;
+  }
+}
+
+
